@@ -35,11 +35,11 @@ static int	ft_print_dispatcher3(t_type *n, char *t, va_list args)
 static int	ft_print_dispatcher2(t_type *node, char *t, va_list args)
 {
 	if (cmp(t, "jd") || cmp(t, "ji") || cmp(t, "jD") || cmp(t, "zD"))
-		return (ft_print_int(node, ft_itoa_im(va_arg(args, __intmax_t)), 0));
+		return (ft_print_int(node, ft_itoa_im(va_arg(args, intmax_t)), 0));
 	else if (cmp(t, "u"))
 		return (ft_print_u(node, ft_itoa_ui(va_arg(args, unsigned int)), 0));
 	else if (cmp(t, "ju") || cmp(t, "jU"))
-		return (ft_print_u(node, ft_itoa_uim(va_arg(args, __uintmax_t)), 0));
+		return (ft_print_u(node, ft_itoa_uim(va_arg(args, uintmax_t)), 0));
 	else if (cmp(t, "hu"))
 		return (ft_print_u(node, ft_itoa_uh(va_arg(args, int)), 0));
 	else if (cmp(t, "hhu"))

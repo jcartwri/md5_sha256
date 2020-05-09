@@ -12,7 +12,7 @@
 
 #include "ft_printf.h"
 
-char		*ft_ntoa_base(__uintmax_t n, int base)
+char		*ft_ntoa_base(uintmax_t n, int base)
 {
 	static char			*nums = "0123456789abcdefghijklmnopqrstuvwxyzABCDEF";
 	char				*res;

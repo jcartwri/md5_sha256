@@ -40,6 +40,7 @@ typedef struct	s_ssl
 	char 			*str;
 	char			*bufer;
 	uint32_t 		*bufer_32;
+	uint32_t		new_t[512];
 }				t_ssl;
 
 t_ssl			*g_ssl;

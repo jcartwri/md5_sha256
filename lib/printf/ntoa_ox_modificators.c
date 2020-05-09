@@ -21,7 +21,7 @@ char			*ntoa_xflags(t_type *node, char *n, int base)
 	else if (ft_strchr(node->type, 'z'))
 		return (ft_ntoa_base((size_t)n, base));
 	else if (ft_strchr(node->type, 'j'))
-		return (ft_ntoa_base((__uintmax_t)n, base));
+		return (ft_ntoa_base((uintmax_t)n, base));
 	else if (!ft_strchr(node->type, 'h'))
 		return (ft_ntoa_base((unsigned long int)n, base));
 	else
@@ -56,7 +56,7 @@ char			*ntoa_oflags(t_type *node, char *n, int base)
 	else if (ft_strchr(node->type, 'z'))
 		return (ft_ntoa_base((size_t)n, base));
 	else if (ft_strchr(node->type, 'j'))
-		return (ft_ntoa_base((__uintmax_t)n, base));
+		return (ft_ntoa_base((uintmax_t)n, base));
 	if (!ft_strchr(node->type, 'h'))
 	{
 		if ((int)n < 0)

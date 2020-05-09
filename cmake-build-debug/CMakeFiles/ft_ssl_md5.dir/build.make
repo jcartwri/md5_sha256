@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2019.2.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = "/Users/zaharov/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /opt/clion-2019.2.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = "/Users/zaharov/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kitos/Документы/21/ft_ssl_md5
+CMAKE_SOURCE_DIR = /Users/zaharov/Documents/YSHA/md5_sha256
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ft_ssl_md5.dir/depend.make
@@ -59,1368 +59,1368 @@ include CMakeFiles/ft_ssl_md5.dir/flags.make
 
 CMakeFiles/ft_ssl_md5.dir/main.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ft_ssl_md5.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/main.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ft_ssl_md5.dir/main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/main.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/main.c
 
 CMakeFiles/ft_ssl_md5.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/main.c > CMakeFiles/ft_ssl_md5.dir/main.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/main.c > CMakeFiles/ft_ssl_md5.dir/main.c.i
 
 CMakeFiles/ft_ssl_md5.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/main.c -o CMakeFiles/ft_ssl_md5.dir/main.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/main.c -o CMakeFiles/ft_ssl_md5.dir/main.c.s
 
 CMakeFiles/ft_ssl_md5.dir/parser.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/parser.c.o: ../parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ft_ssl_md5.dir/parser.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/parser.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ft_ssl_md5.dir/parser.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/parser.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/parser.c
 
 CMakeFiles/ft_ssl_md5.dir/parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/parser.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/parser.c > CMakeFiles/ft_ssl_md5.dir/parser.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/parser.c > CMakeFiles/ft_ssl_md5.dir/parser.c.i
 
 CMakeFiles/ft_ssl_md5.dir/parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/parser.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/parser.c -o CMakeFiles/ft_ssl_md5.dir/parser.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/parser.c -o CMakeFiles/ft_ssl_md5.dir/parser.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/flag_modifiers.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/flag_modifiers.c.o: ../lib/printf/flag_modifiers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/flag_modifiers.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/flag_modifiers.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/flag_modifiers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/flag_modifiers.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/flag_modifiers.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/flag_modifiers.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/flag_modifiers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/flag_modifiers.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/flag_modifiers.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/flag_modifiers.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/flag_modifiers.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/flag_modifiers.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/flag_modifiers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/flag_modifiers.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/flag_modifiers.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/flag_modifiers.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/flag_modifiers.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/flag_modifiers.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/float_functions.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/float_functions.c.o: ../lib/printf/float_functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/float_functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/float_functions.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/float_functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/float_functions.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/float_functions.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/float_functions.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/float_functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/float_functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/float_functions.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/float_functions.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/float_functions.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/float_functions.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/float_functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/float_functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/float_functions.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/float_functions.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/float_functions.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/float_functions.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_fldtoa_funcs.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_fldtoa_funcs.c.o: ../lib/printf/ft_fldtoa_funcs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_fldtoa_funcs.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_fldtoa_funcs.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_fldtoa_funcs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_fldtoa_funcs.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_fldtoa_funcs.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_fldtoa_funcs.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_fldtoa_funcs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_fldtoa_funcs.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_fldtoa_funcs.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_fldtoa_funcs.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_fldtoa_funcs.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_fldtoa_funcs.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_fldtoa_funcs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_fldtoa_funcs.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_fldtoa_funcs.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_fldtoa_funcs.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_fldtoa_funcs.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_fldtoa_funcs.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ftoa.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ftoa.c.o: ../lib/printf/ft_ftoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ftoa.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ftoa.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_ftoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ftoa.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ftoa.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_ftoa.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ftoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ftoa.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_ftoa.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ftoa.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_ftoa.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ftoa.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ftoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ftoa.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_ftoa.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ftoa.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_ftoa.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ftoa.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_im.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_im.c.o: ../lib/printf/ft_itoa_im.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_im.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_im.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_im.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_im.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_im.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_im.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_im.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_im.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_im.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_im.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_im.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_im.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_im.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_im.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_im.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_im.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_im.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_im.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ll.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ll.c.o: ../lib/printf/ft_itoa_ll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ll.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ll.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_ll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ll.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ll.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_ll.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ll.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_ll.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ll.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_ll.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ll.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ll.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_ll.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ll.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_ll.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ll.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_st.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_st.c.o: ../lib/printf/ft_itoa_st.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_st.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_st.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_st.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_st.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_st.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_st.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_st.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_st.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_st.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_st.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_st.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_st.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_st.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_st.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_st.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_st.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_st.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_st.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uh.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uh.c.o: ../lib/printf/ft_itoa_uh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uh.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uh.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_uh.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uh.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uh.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_uh.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uh.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_uh.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uh.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_uh.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uh.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uh.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_uh.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uh.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_uh.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uh.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uhh.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uhh.c.o: ../lib/printf/ft_itoa_uhh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uhh.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uhh.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_uhh.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uhh.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uhh.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_uhh.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uhh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uhh.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_uhh.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uhh.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_uhh.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uhh.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uhh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uhh.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_uhh.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uhh.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_uhh.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uhh.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ui.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ui.c.o: ../lib/printf/ft_itoa_ui.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ui.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ui.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_ui.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ui.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ui.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_ui.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ui.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ui.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_ui.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ui.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_ui.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ui.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ui.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ui.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_ui.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ui.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_ui.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ui.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uim.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uim.c.o: ../lib/printf/ft_itoa_uim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uim.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uim.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_uim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uim.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uim.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_uim.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uim.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_uim.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uim.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_uim.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uim.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uim.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_uim.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uim.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_uim.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_uim.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ull.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ull.c.o: ../lib/printf/ft_itoa_ull.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ull.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ull.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_ull.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ull.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ull.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_ull.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ull.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ull.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_ull.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ull.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_ull.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ull.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ull.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ull.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_itoa_ull.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ull.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_itoa_ull.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_itoa_ull.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ldtoa.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ldtoa.c.o: ../lib/printf/ft_ldtoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ldtoa.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ldtoa.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_ldtoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ldtoa.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ldtoa.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_ldtoa.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ldtoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ldtoa.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_ldtoa.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ldtoa.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_ldtoa.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ldtoa.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ldtoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ldtoa.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_ldtoa.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ldtoa.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_ldtoa.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ldtoa.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ntoa.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ntoa.c.o: ../lib/printf/ft_ntoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ntoa.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ntoa.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_ntoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ntoa.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ntoa.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_ntoa.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ntoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ntoa.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_ntoa.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ntoa.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_ntoa.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ntoa.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ntoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ntoa.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_ntoa.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ntoa.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_ntoa.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_ntoa.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_printf.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_printf.c.o: ../lib/printf/ft_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_printf.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_printf.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_printf.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_printf.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_printf.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_printf.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_printf.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_printf.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_printf.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_printf.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_printf.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_printf.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_printf.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_printf.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ft_printf.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/helper_functions.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/helper_functions.c.o: ../lib/printf/helper_functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/helper_functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/helper_functions.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/helper_functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/helper_functions.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/helper_functions.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/helper_functions.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/helper_functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/helper_functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/helper_functions.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/helper_functions.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/helper_functions.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/helper_functions.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/helper_functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/helper_functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/helper_functions.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/helper_functions.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/helper_functions.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/helper_functions.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_atoi.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_atoi.c.o: ../lib/printf/libft/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_atoi.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_atoi.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_atoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_atoi.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_atoi.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_atoi.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_atoi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_atoi.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_atoi.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_atoi.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_atoi.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_atoi.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_atoi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_atoi.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_atoi.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_atoi.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_atoi.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_atoi.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_bzero.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_bzero.c.o: ../lib/printf/libft/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_bzero.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_bzero.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_bzero.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_bzero.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_bzero.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_bzero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_bzero.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_bzero.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_bzero.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_bzero.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_bzero.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_bzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_bzero.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_bzero.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_bzero.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_bzero.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_bzero.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_colorize_str.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_colorize_str.c.o: ../lib/printf/libft/ft_colorize_str.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_colorize_str.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_colorize_str.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_colorize_str.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_colorize_str.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_colorize_str.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_colorize_str.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_colorize_str.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_colorize_str.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_colorize_str.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_colorize_str.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_colorize_str.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_colorize_str.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_colorize_str.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_colorize_str.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_colorize_str.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_colorize_str.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_colorize_str.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_colorize_str.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalnum.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalnum.c.o: ../lib/printf/libft/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalnum.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalnum.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_isalnum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalnum.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalnum.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_isalnum.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalnum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalnum.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_isalnum.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalnum.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_isalnum.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalnum.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalnum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalnum.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_isalnum.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalnum.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_isalnum.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalnum.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalpha.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalpha.c.o: ../lib/printf/libft/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalpha.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalpha.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_isalpha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalpha.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalpha.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_isalpha.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalpha.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalpha.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_isalpha.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalpha.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_isalpha.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalpha.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalpha.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalpha.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_isalpha.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalpha.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_isalpha.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isalpha.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isascii.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isascii.c.o: ../lib/printf/libft/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isascii.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isascii.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_isascii.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isascii.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isascii.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_isascii.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isascii.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isascii.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_isascii.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isascii.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_isascii.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isascii.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isascii.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isascii.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_isascii.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isascii.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_isascii.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isascii.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isdigit.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isdigit.c.o: ../lib/printf/libft/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isdigit.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isdigit.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_isdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isdigit.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isdigit.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_isdigit.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isdigit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isdigit.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_isdigit.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isdigit.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_isdigit.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isdigit.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isdigit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isdigit.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_isdigit.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isdigit.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_isdigit.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isdigit.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isprint.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isprint.c.o: ../lib/printf/libft/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isprint.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isprint.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_isprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isprint.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isprint.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_isprint.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isprint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isprint.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_isprint.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isprint.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_isprint.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isprint.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isprint.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_isprint.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isprint.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_isprint.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_isprint.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_itoa.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_itoa.c.o: ../lib/printf/libft/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_itoa.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_itoa.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_itoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_itoa.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_itoa.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_itoa.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_itoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_itoa.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_itoa.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_itoa.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_itoa.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_itoa.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_itoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_itoa.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_itoa.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_itoa.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_itoa.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_itoa.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstadd.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstadd.c.o: ../lib/printf/libft/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstadd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstadd.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstadd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstadd.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstadd.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstadd.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstadd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstadd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstadd.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstadd.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstadd.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstadd.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstadd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstadd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstadd.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstadd.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstadd.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstadd.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstchange.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstchange.c.o: ../lib/printf/libft/ft_lstchange.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstchange.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstchange.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstchange.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstchange.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstchange.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstchange.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstchange.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstchange.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstchange.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstchange.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstchange.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstchange.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstchange.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstchange.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstchange.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstchange.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstchange.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstchange.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdel.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdel.c.o: ../lib/printf/libft/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdel.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdel.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdel.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstdel.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstdel.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdel.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstdel.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdel.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstdel.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdel.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstdel.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdel.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdelone.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdelone.c.o: ../lib/printf/libft/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdelone.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdelone.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstdelone.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdelone.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdelone.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstdelone.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdelone.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdelone.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstdelone.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdelone.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstdelone.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdelone.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdelone.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdelone.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstdelone.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdelone.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstdelone.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstdelone.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstiter.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstiter.c.o: ../lib/printf/libft/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstiter.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstiter.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstiter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstiter.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstiter.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstiter.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstiter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstiter.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstiter.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstiter.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstiter.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstiter.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstiter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstiter.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstiter.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstiter.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstiter.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstiter.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstjoin.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstjoin.c.o: ../lib/printf/libft/ft_lstjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstjoin.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstjoin.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstjoin.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstjoin.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstjoin.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstjoin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstjoin.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstjoin.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstjoin.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstjoin.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstjoin.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstjoin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstjoin.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstjoin.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstjoin.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstjoin.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstjoin.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstmap.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstmap.c.o: ../lib/printf/libft/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstmap.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstmap.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstmap.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstmap.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstmap.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstmap.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstmap.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstmap.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstmap.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstmap.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstmap.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstmap.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstmap.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstmap.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstmap.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstnew.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstnew.c.o: ../lib/printf/libft/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstnew.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstnew.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstnew.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstnew.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstnew.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstnew.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstnew.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstnew.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstnew.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstnew.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstnew.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstnew.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstnew.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstnew.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstnew.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstprint.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstprint.c.o: ../lib/printf/libft/ft_lstprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstprint.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstprint.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstprint.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstprint.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstprint.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstprint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstprint.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstprint.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstprint.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstprint.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstprint.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstprint.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_lstprint.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstprint.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_lstprint.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_lstprint.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_make_lst.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_make_lst.c.o: ../lib/printf/libft/ft_make_lst.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_make_lst.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_make_lst.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_make_lst.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_make_lst.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_make_lst.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_make_lst.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_make_lst.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_make_lst.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_make_lst.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_make_lst.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_make_lst.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_make_lst.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_make_lst.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_make_lst.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_make_lst.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_make_lst.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_make_lst.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_make_lst.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memalloc.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memalloc.c.o: ../lib/printf/libft/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memalloc.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memalloc.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memalloc.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memalloc.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memalloc.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memalloc.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memalloc.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memalloc.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memalloc.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memalloc.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memalloc.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memalloc.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memalloc.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memalloc.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memalloc.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memccpy.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memccpy.c.o: ../lib/printf/libft/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memccpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memccpy.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memccpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memccpy.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memccpy.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memccpy.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memccpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memccpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memccpy.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memccpy.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memccpy.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memccpy.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memccpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memccpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memccpy.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memccpy.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memccpy.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memccpy.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memchr.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memchr.c.o: ../lib/printf/libft/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memchr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memchr.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memchr.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memchr.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memchr.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memchr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memchr.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memchr.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memchr.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memchr.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memchr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memchr.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memchr.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memchr.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memchr.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcmp.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcmp.c.o: ../lib/printf/libft/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcmp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcmp.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcmp.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcmp.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memcmp.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcmp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memcmp.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcmp.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memcmp.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcmp.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcmp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memcmp.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcmp.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memcmp.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcmp.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcpy.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcpy.c.o: ../lib/printf/libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcpy.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcpy.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcpy.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memcpy.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memcpy.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcpy.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memcpy.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcpy.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memcpy.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcpy.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memcpy.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memcpy.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memdel.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memdel.c.o: ../lib/printf/libft/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memdel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memdel.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memdel.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memdel.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memdel.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memdel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memdel.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memdel.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memdel.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memdel.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memdel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memdel.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memdel.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memdel.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memdel.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memmove.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memmove.c.o: ../lib/printf/libft/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memmove.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memmove.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memmove.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memmove.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memmove.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memmove.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memmove.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memmove.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memmove.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memmove.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memmove.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memmove.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memmove.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memmove.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memmove.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memmove.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memmove.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memmove.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memset.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memset.c.o: ../lib/printf/libft/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memset.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memset.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memset.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memset.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memset.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memset.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memset.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memset.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memset.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memset.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memset.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_memset.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memset.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_memset.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_memset.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar.c.o: ../lib/printf/libft/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putchar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putchar.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putchar.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putchar.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putchar.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putchar.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar_fd.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar_fd.c.o: ../lib/printf/libft/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar_fd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar_fd.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putchar_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar_fd.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar_fd.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putchar_fd.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar_fd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putchar_fd.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar_fd.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putchar_fd.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar_fd.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar_fd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putchar_fd.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar_fd.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putchar_fd.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putchar_fd.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl.c.o: ../lib/printf/libft/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putendl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putendl.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putendl.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putendl.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putendl.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putendl.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl_fd.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl_fd.c.o: ../lib/printf/libft/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl_fd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl_fd.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putendl_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl_fd.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl_fd.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putendl_fd.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl_fd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putendl_fd.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl_fd.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putendl_fd.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl_fd.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl_fd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putendl_fd.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl_fd.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putendl_fd.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putendl_fd.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr.c.o: ../lib/printf/libft/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putnbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putnbr.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putnbr.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putnbr.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putnbr.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putnbr.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr_fd.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr_fd.c.o: ../lib/printf/libft/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr_fd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr_fd.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putnbr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr_fd.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr_fd.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putnbr_fd.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr_fd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putnbr_fd.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr_fd.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putnbr_fd.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr_fd.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr_fd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putnbr_fd.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr_fd.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putnbr_fd.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putnbr_fd.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr.c.o: ../lib/printf/libft/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putstr.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putstr.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putstr.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putstr.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putstr.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr_fd.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr_fd.c.o: ../lib/printf/libft/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr_fd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr_fd.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putstr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr_fd.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr_fd.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putstr_fd.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr_fd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putstr_fd.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr_fd.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putstr_fd.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr_fd.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr_fd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_putstr_fd.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr_fd.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_putstr_fd.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_putstr_fd.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcat.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcat.c.o: ../lib/printf/libft/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcat.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcat.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcat.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcat.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strcat.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcat.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strcat.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcat.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strcat.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcat.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcat.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strcat.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcat.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strcat.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcat.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strchr.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strchr.c.o: ../lib/printf/libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strchr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strchr.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strchr.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strchr.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strchr.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strchr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strchr.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strchr.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strchr.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strchr.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strchr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strchr.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strchr.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strchr.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strchr.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strclr.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strclr.c.o: ../lib/printf/libft/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strclr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strclr.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strclr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strclr.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strclr.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strclr.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strclr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strclr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strclr.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strclr.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strclr.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strclr.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strclr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strclr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strclr.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strclr.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strclr.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strclr.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcmp.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcmp.c.o: ../lib/printf/libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcmp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcmp.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcmp.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcmp.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strcmp.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcmp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strcmp.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcmp.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strcmp.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcmp.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcmp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strcmp.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcmp.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strcmp.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcmp.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcpy.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcpy.c.o: ../lib/printf/libft/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcpy.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcpy.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcpy.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strcpy.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strcpy.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcpy.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strcpy.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcpy.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strcpy.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcpy.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strcpy.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strcpy.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdel.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdel.c.o: ../lib/printf/libft/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdel.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdel.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdel.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strdel.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strdel.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdel.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strdel.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdel.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strdel.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdel.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strdel.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdel.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdup.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdup.c.o: ../lib/printf/libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdup.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdup.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdup.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdup.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strdup.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdup.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strdup.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdup.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strdup.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdup.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdup.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strdup.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdup.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strdup.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strdup.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strequ.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strequ.c.o: ../lib/printf/libft/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strequ.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strequ.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strequ.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strequ.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strequ.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strequ.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strequ.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strequ.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strequ.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strequ.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strequ.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strequ.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strequ.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strequ.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strequ.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striter.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striter.c.o: ../lib/printf/libft/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striter.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striter.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_striter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striter.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striter.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_striter.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striter.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_striter.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striter.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_striter.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striter.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striter.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_striter.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striter.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_striter.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striter.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striteri.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striteri.c.o: ../lib/printf/libft/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striteri.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striteri.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_striteri.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striteri.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striteri.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_striteri.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striteri.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striteri.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_striteri.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striteri.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_striteri.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striteri.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striteri.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striteri.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_striteri.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striteri.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_striteri.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_striteri.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strjoin.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strjoin.c.o: ../lib/printf/libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strjoin.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strjoin.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strjoin.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strjoin.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strjoin.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strjoin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strjoin.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strjoin.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strjoin.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strjoin.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strjoin.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strjoin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strjoin.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strjoin.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strjoin.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strjoin.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strjoin.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlcat.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlcat.c.o: ../lib/printf/libft/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlcat.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlcat.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strlcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlcat.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlcat.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strlcat.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlcat.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strlcat.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlcat.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strlcat.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlcat.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlcat.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strlcat.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlcat.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strlcat.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlcat.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlen.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlen.c.o: ../lib/printf/libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlen.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlen.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlen.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlen.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strlen.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlen.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strlen.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlen.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strlen.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlen.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlen.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strlen.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlen.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strlen.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strlen.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmap.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmap.c.o: ../lib/printf/libft/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmap.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmap.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmap.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmap.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strmap.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmap.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strmap.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmap.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strmap.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmap.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmap.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strmap.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmap.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strmap.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmap.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmapi.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmapi.c.o: ../lib/printf/libft/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmapi.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmapi.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strmapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmapi.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmapi.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strmapi.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmapi.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strmapi.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmapi.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strmapi.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmapi.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmapi.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strmapi.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmapi.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strmapi.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strmapi.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncat.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncat.c.o: ../lib/printf/libft/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncat.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncat.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strncat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncat.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncat.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strncat.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncat.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strncat.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncat.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strncat.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncat.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncat.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strncat.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncat.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strncat.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncat.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncmp.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncmp.c.o: ../lib/printf/libft/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncmp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncmp.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strncmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncmp.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncmp.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strncmp.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncmp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strncmp.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncmp.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strncmp.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncmp.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncmp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strncmp.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncmp.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strncmp.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncmp.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncpy.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncpy.c.o: ../lib/printf/libft/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncpy.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strncpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncpy.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncpy.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strncpy.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strncpy.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncpy.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strncpy.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncpy.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strncpy.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncpy.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strncpy.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strncpy.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnequ.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnequ.c.o: ../lib/printf/libft/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnequ.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnequ.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strnequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnequ.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnequ.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strnequ.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnequ.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strnequ.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnequ.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strnequ.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnequ.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnequ.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strnequ.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnequ.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strnequ.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnequ.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnew.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnew.c.o: ../lib/printf/libft/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnew.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnew.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnew.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnew.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strnew.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnew.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strnew.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnew.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strnew.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnew.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnew.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strnew.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnew.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strnew.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnew.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnstr.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnstr.c.o: ../lib/printf/libft/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnstr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnstr.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strnstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnstr.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnstr.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strnstr.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnstr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strnstr.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnstr.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strnstr.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnstr.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnstr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strnstr.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnstr.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strnstr.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strnstr.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strrchr.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strrchr.c.o: ../lib/printf/libft/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strrchr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strrchr.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strrchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strrchr.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strrchr.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strrchr.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strrchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strrchr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strrchr.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strrchr.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strrchr.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strrchr.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strrchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strrchr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strrchr.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strrchr.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strrchr.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strrchr.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsplit.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsplit.c.o: ../lib/printf/libft/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsplit.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsplit.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsplit.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsplit.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strsplit.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsplit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsplit.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strsplit.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsplit.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strsplit.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsplit.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsplit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsplit.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strsplit.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsplit.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strsplit.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsplit.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strstr.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strstr.c.o: ../lib/printf/libft/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strstr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strstr.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strstr.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strstr.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strstr.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strstr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strstr.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strstr.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strstr.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strstr.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strstr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strstr.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strstr.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strstr.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strstr.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsub.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsub.c.o: ../lib/printf/libft/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsub.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsub.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strsub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsub.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsub.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strsub.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsub.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strsub.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsub.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strsub.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsub.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsub.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strsub.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsub.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strsub.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsub.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsubi.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsubi.c.o: ../lib/printf/libft/ft_strsubi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsubi.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsubi.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strsubi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsubi.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsubi.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strsubi.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsubi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsubi.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strsubi.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsubi.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strsubi.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsubi.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsubi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsubi.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strsubi.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsubi.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strsubi.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strsubi.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim.c.o: ../lib/printf/libft/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strtrim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strtrim.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strtrim.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strtrim.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strtrim.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strtrim.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim_c.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim_c.c.o: ../lib/printf/libft/ft_strtrim_c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim_c.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim_c.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strtrim_c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim_c.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim_c.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strtrim_c.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim_c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim_c.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strtrim_c.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim_c.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strtrim_c.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim_c.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim_c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim_c.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_strtrim_c.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim_c.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_strtrim_c.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_strtrim_c.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_tolower.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_tolower.c.o: ../lib/printf/libft/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_tolower.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_tolower.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_tolower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_tolower.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_tolower.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_tolower.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_tolower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_tolower.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_tolower.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_tolower.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_tolower.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_tolower.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_tolower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_tolower.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_tolower.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_tolower.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_tolower.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_tolower.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_toupper.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_toupper.c.o: ../lib/printf/libft/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_toupper.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_toupper.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_toupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_toupper.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_toupper.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_toupper.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_toupper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_toupper.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_toupper.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_toupper.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_toupper.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_toupper.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_toupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_toupper.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_toupper.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_toupper.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_toupper.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_toupper.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_word_count_c.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_word_count_c.c.o: ../lib/printf/libft/ft_word_count_c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_word_count_c.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_word_count_c.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_word_count_c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_word_count_c.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_word_count_c.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_word_count_c.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_word_count_c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_word_count_c.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_word_count_c.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_word_count_c.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_word_count_c.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_word_count_c.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_word_count_c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_word_count_c.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/ft_word_count_c.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_word_count_c.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/ft_word_count_c.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/ft_word_count_c.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/get_next_line.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/get_next_line.c.o: ../lib/printf/libft/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/get_next_line.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/get_next_line.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/get_next_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/get_next_line.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/get_next_line.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/get_next_line.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/get_next_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/get_next_line.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/get_next_line.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/get_next_line.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/get_next_line.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/get_next_line.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/get_next_line.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/get_next_line.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/get_next_line.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/get_next_line.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/libft/get_next_line.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ntoa_ox_modificators.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ntoa_ox_modificators.c.o: ../lib/printf/ntoa_ox_modificators.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ntoa_ox_modificators.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ntoa_ox_modificators.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ntoa_ox_modificators.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/ntoa_ox_modificators.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ntoa_ox_modificators.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ntoa_ox_modificators.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ntoa_ox_modificators.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/ntoa_ox_modificators.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ntoa_ox_modificators.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ntoa_ox_modificators.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ntoa_ox_modificators.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/ntoa_ox_modificators.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/ntoa_ox_modificators.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/ntoa_ox_modificators.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/ntoa_ox_modificators.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ntoa_ox_modificators.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ntoa_ox_modificators.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/ntoa_ox_modificators.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_char.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_char.c.o: ../lib/printf/print_char.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_char.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_char.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_char.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_char.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_char.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_char.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_char.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/print_char.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_char.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_char.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_char.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_char.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_char.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/print_char.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_char.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_char.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_char.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_char.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_float.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_float.c.o: ../lib/printf/print_float.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_float.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_float.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_float.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_float.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_float.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_float.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_float.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/print_float.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_float.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_float.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_float.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_float.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_float.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/print_float.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_float.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_float.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_float.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_float.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_floatfuncs.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_floatfuncs.c.o: ../lib/printf/print_floatfuncs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_floatfuncs.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_floatfuncs.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_floatfuncs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_floatfuncs.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_floatfuncs.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_floatfuncs.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_floatfuncs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/print_floatfuncs.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_floatfuncs.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_floatfuncs.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_floatfuncs.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_floatfuncs.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_floatfuncs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/print_floatfuncs.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_floatfuncs.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_floatfuncs.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_floatfuncs.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_floatfuncs.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_functions.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_functions.c.o: ../lib/printf/print_functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_functions.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_functions.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_functions.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_functions.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/print_functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_functions.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_functions.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_functions.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_functions.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/print_functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_functions.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_functions.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_functions.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_functions.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int.c.o: ../lib/printf/print_int.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_int.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_int.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_int.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_int.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_int.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_int.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int2.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int2.c.o: ../lib/printf/print_int2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int2.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_int2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int2.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int2.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_int2.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_int2.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int2.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_int2.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int2.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_int2.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int2.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_int2.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_int2.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_ld.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_ld.c.o: ../lib/printf/print_ld.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_ld.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_ld.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_ld.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_ld.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_ld.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_ld.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_ld.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/print_ld.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_ld.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_ld.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_ld.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_ld.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_ld.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/print_ld.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_ld.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_ld.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_ld.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_ld.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_oxp.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_oxp.c.o: ../lib/printf/print_oxp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_oxp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_oxp.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_oxp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_oxp.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_oxp.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_oxp.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_oxp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/print_oxp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_oxp.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_oxp.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_oxp.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_oxp.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_oxp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/print_oxp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_oxp.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_oxp.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_oxp.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_oxp.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string.c.o: ../lib/printf/print_string.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_string.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_string.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_string.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_string.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_string.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_string.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string_colour.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string_colour.c.o: ../lib/printf/print_string_colour.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string_colour.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string_colour.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_string_colour.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string_colour.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string_colour.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_string_colour.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string_colour.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string_colour.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_string_colour.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string_colour.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_string_colour.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string_colour.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string_colour.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string_colour.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_string_colour.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string_colour.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_string_colour.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_string_colour.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_u.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_u.c.o: ../lib/printf/print_u.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_u.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_u.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_u.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/print_u.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_u.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_u.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_u.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/print_u.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_u.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_u.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_u.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/print_u.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/print_u.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/print_u.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/print_u.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_u.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/print_u.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/print_u.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/searchers.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/searchers.c.o: ../lib/printf/searchers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/searchers.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/searchers.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/searchers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/searchers.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/searchers.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/searchers.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/searchers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/searchers.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/searchers.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/searchers.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/searchers.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/searchers.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/searchers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/searchers.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/searchers.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/searchers.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/searchers.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/searchers.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities.c.o: ../lib/printf/utilities.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/utilities.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/utilities.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/utilities.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/utilities.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/utilities.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/utilities.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities2.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities2.c.o: ../lib/printf/utilities2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities2.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/utilities2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities2.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities2.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/utilities2.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/utilities2.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities2.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/utilities2.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities2.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/utilities2.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities2.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/utilities2.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/utilities2.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/validators.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/validators.c.o: ../lib/printf/validators.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/validators.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/validators.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/validators.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/validators.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/validators.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/validators.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/validators.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/validators.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/validators.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/validators.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/validators.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/validators.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/validators.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/validators.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/validators.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/validators.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/validators.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/validators.c.s
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/zero_cases_xop.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/lib/printf/zero_cases_xop.c.o: ../lib/printf/zero_cases_xop.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/zero_cases_xop.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/zero_cases_xop.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/lib/printf/zero_cases_xop.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/ft_ssl_md5.dir/lib/printf/zero_cases_xop.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/lib/printf/zero_cases_xop.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/zero_cases_xop.c
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/zero_cases_xop.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/lib/printf/zero_cases_xop.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/lib/printf/zero_cases_xop.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/zero_cases_xop.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/zero_cases_xop.c > CMakeFiles/ft_ssl_md5.dir/lib/printf/zero_cases_xop.c.i
 
 CMakeFiles/ft_ssl_md5.dir/lib/printf/zero_cases_xop.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/lib/printf/zero_cases_xop.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/lib/printf/zero_cases_xop.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/zero_cases_xop.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/zero_cases_xop.c -o CMakeFiles/ft_ssl_md5.dir/lib/printf/zero_cases_xop.c.s
 
 CMakeFiles/ft_ssl_md5.dir/md5.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/md5.c.o: ../md5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/ft_ssl_md5.dir/md5.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/md5.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/md5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/ft_ssl_md5.dir/md5.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/md5.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/md5.c
 
 CMakeFiles/ft_ssl_md5.dir/md5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/md5.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/md5.c > CMakeFiles/ft_ssl_md5.dir/md5.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/md5.c > CMakeFiles/ft_ssl_md5.dir/md5.c.i
 
 CMakeFiles/ft_ssl_md5.dir/md5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/md5.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/md5.c -o CMakeFiles/ft_ssl_md5.dir/md5.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/md5.c -o CMakeFiles/ft_ssl_md5.dir/md5.c.s
 
 CMakeFiles/ft_ssl_md5.dir/ft_itoa_base_extra.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/ft_itoa_base_extra.c.o: ../ft_itoa_base_extra.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/ft_ssl_md5.dir/ft_itoa_base_extra.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/ft_itoa_base_extra.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/ft_itoa_base_extra.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/ft_ssl_md5.dir/ft_itoa_base_extra.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/ft_itoa_base_extra.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/ft_itoa_base_extra.c
 
 CMakeFiles/ft_ssl_md5.dir/ft_itoa_base_extra.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/ft_itoa_base_extra.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/ft_itoa_base_extra.c > CMakeFiles/ft_ssl_md5.dir/ft_itoa_base_extra.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/ft_itoa_base_extra.c > CMakeFiles/ft_ssl_md5.dir/ft_itoa_base_extra.c.i
 
 CMakeFiles/ft_ssl_md5.dir/ft_itoa_base_extra.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/ft_itoa_base_extra.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/ft_itoa_base_extra.c -o CMakeFiles/ft_ssl_md5.dir/ft_itoa_base_extra.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/ft_itoa_base_extra.c -o CMakeFiles/ft_ssl_md5.dir/ft_itoa_base_extra.c.s
 
 CMakeFiles/ft_ssl_md5.dir/sha_256.c.o: CMakeFiles/ft_ssl_md5.dir/flags.make
 CMakeFiles/ft_ssl_md5.dir/sha_256.c.o: ../sha_256.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/ft_ssl_md5.dir/sha_256.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/sha_256.c.o   -c /home/kitos/Документы/21/ft_ssl_md5/sha_256.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/ft_ssl_md5.dir/sha_256.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl_md5.dir/sha_256.c.o   -c /Users/zaharov/Documents/YSHA/md5_sha256/sha_256.c
 
 CMakeFiles/ft_ssl_md5.dir/sha_256.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl_md5.dir/sha_256.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kitos/Документы/21/ft_ssl_md5/sha_256.c > CMakeFiles/ft_ssl_md5.dir/sha_256.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zaharov/Documents/YSHA/md5_sha256/sha_256.c > CMakeFiles/ft_ssl_md5.dir/sha_256.c.i
 
 CMakeFiles/ft_ssl_md5.dir/sha_256.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl_md5.dir/sha_256.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kitos/Документы/21/ft_ssl_md5/sha_256.c -o CMakeFiles/ft_ssl_md5.dir/sha_256.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zaharov/Documents/YSHA/md5_sha256/sha_256.c -o CMakeFiles/ft_ssl_md5.dir/sha_256.c.s
 
 # Object files for target ft_ssl_md5
 ft_ssl_md5_OBJECTS = \
@@ -1640,7 +1640,7 @@ ft_ssl_md5: CMakeFiles/ft_ssl_md5.dir/ft_itoa_base_extra.c.o
 ft_ssl_md5: CMakeFiles/ft_ssl_md5.dir/sha_256.c.o
 ft_ssl_md5: CMakeFiles/ft_ssl_md5.dir/build.make
 ft_ssl_md5: CMakeFiles/ft_ssl_md5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Linking C executable ft_ssl_md5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Linking C executable ft_ssl_md5"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ft_ssl_md5.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1653,6 +1653,6 @@ CMakeFiles/ft_ssl_md5.dir/clean:
 .PHONY : CMakeFiles/ft_ssl_md5.dir/clean
 
 CMakeFiles/ft_ssl_md5.dir/depend:
-	cd /home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kitos/Документы/21/ft_ssl_md5 /home/kitos/Документы/21/ft_ssl_md5 /home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug /home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug /home/kitos/Документы/21/ft_ssl_md5/cmake-build-debug/CMakeFiles/ft_ssl_md5.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zaharov/Documents/YSHA/md5_sha256 /Users/zaharov/Documents/YSHA/md5_sha256 /Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug /Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug /Users/zaharov/Documents/YSHA/md5_sha256/cmake-build-debug/CMakeFiles/ft_ssl_md5.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ft_ssl_md5.dir/depend
 

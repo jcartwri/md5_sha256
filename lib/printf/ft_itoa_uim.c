@@ -12,7 +12,7 @@
 
 #include "ft_printf.h"
 
-static char	*ft_itoa_dispatcher(__uintmax_t n)
+static char	*ft_itoa_dispatcher(uintmax_t n)
 {
 	char	*arr;
 
@@ -24,7 +24,7 @@ static char	*ft_itoa_dispatcher(__uintmax_t n)
 	return (NULL);
 }
 
-static int	ft_delit(__uintmax_t nbr)
+static int	ft_delit(uintmax_t nbr)
 {
 	int		i;
 
@@ -37,7 +37,7 @@ static int	ft_delit(__uintmax_t nbr)
 	return (i);
 }
 
-char		*ft_itoa_uim(__uintmax_t n)
+char		*ft_itoa_uim(uintmax_t n)
 {
 	char	*new_arr;
 	int		len;

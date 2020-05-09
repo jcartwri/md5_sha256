@@ -56,14 +56,19 @@ static int ft_run_md5(char *str)
 	ft_putstr(ft_itoa_base_extra(g_ssl->d0, 16));
 	ft_putstr("\n");
 	ft_putstr(str);
+	return (0);
 }
 
 int main(int argc, char **argv)
 {
-	char *str;
-
-	str = "HI";
-	ft_creat_ssl();
-
+//	char *str;
+//
+//	str = "HI";
+//	ft_creat_ssl();
+//	ft_run_md5(str);
+	u_int32_t mas1[10];
+	char	mas2[10] = "012345678\0";
+	u_int32_t *new_mas;
+	new_mas = ft_memcpy(mas1, mas2, 10);
 	return 0;
 }

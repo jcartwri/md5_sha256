@@ -92,16 +92,16 @@ int					ft_print_float(t_type *node, double n, int i);
 
 int					ft_print_x(t_type *node, char *str);
 int					ft_ntoa_dispatcher(t_type *node, char *n, int base);
-unsigned long		ft_nlen(__uintmax_t n, int base);
+unsigned long		ft_nlen(uintmax_t n, int base);
 void				str2upcase(char *str);
 
 int					cmp(char *type, char *c);
 char				*ft_ftoa(double n, int afterpoint, t_type *node);
 void				ft_swap(char *a, char *b);
-__intmax_t			ft_abs(__intmax_t n);
+intmax_t			ft_abs(intmax_t n);
 void				str2upcase(char *str);
 
-char				*ft_ntoa_base(__uintmax_t n, int base);
+char				*ft_ntoa_base(uintmax_t n, int base);
 char				*shift_npos(char *str, int n);
 char				*expand_str(char *str);
 
@@ -119,8 +119,8 @@ char				*octo_addzero(char *str);
 int					printf_len_corrector(t_type *node, char *str, int len);
 int					print_color_string(t_type *node, char *str, int i, int mod);
 
-char				*ft_itoa_im(__intmax_t n);
-char				*ft_itoa_uim(__uintmax_t n);
+char				*ft_itoa_im(intmax_t n);
+char				*ft_itoa_uim(uintmax_t n);
 char				*ft_itoa_st(ssize_t n);
 
 int					ft_print_ld(t_type *node, long double n, int i);

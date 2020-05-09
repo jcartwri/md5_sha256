@@ -6,17 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/kitos/Документы/21/ft_ssl_md5/ft_ssl.h
+/Users/zaharov/Documents/YSHA/md5_sha256/ft_itoa_base_extra.c
+ft_ssl.h
+/Users/zaharov/Documents/YSHA/md5_sha256/ft_ssl.h
+
+/Users/zaharov/Documents/YSHA/md5_sha256/ft_ssl.h
 ./lib/printf/ft_printf.h
-/home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_printf.h
+/Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_printf.h
 ./lib/printf/libft/libft.h
-/home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/libft.h
+/Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/libft.h
 ./lib/printf/libft/get_next_line.h
-/home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/get_next_line.h
+/Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/get_next_line.h
 stdint.h
 -
 
-/home/kitos/Документы/21/ft_ssl_md5/lib/printf/ft_printf.h
+/Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_printf.h
 stdio.h
 -
 stdarg.h
@@ -26,13 +30,13 @@ float.h
 limits.h
 -
 libft/libft.h
-/home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/libft.h
+/Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/libft.h
 
-/home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/get_next_line.h
+/Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/get_next_line.h
 libft.h
-/home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/libft.h
+/Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/libft.h
 
-/home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/libft.h
+/Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/libft.h
 unistd.h
 -
 string.h
@@ -40,13 +44,25 @@ string.h
 stdlib.h
 -
 get_next_line.h
-/home/kitos/Документы/21/ft_ssl_md5/lib/printf/libft/get_next_line.h
+/Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/get_next_line.h
 
-/home/kitos/Документы/21/ft_ssl_md5/main.c
+/Users/zaharov/Documents/YSHA/md5_sha256/main.c
 stdio.h
 -
 ft_ssl.h
-/home/kitos/Документы/21/ft_ssl_md5/ft_ssl.h
+/Users/zaharov/Documents/YSHA/md5_sha256/ft_ssl.h
 math.h
 -
+
+/Users/zaharov/Documents/YSHA/md5_sha256/md5.c
+ft_ssl.h
+/Users/zaharov/Documents/YSHA/md5_sha256/ft_ssl.h
+
+/Users/zaharov/Documents/YSHA/md5_sha256/parser.c
+ft_ssl.h
+/Users/zaharov/Documents/YSHA/md5_sha256/ft_ssl.h
+
+/Users/zaharov/Documents/YSHA/md5_sha256/sha_256.c
+ft_ssl.h
+/Users/zaharov/Documents/YSHA/md5_sha256/ft_ssl.h
 

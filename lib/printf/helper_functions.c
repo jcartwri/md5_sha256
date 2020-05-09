@@ -34,14 +34,14 @@ void			ft_addflag(t_type *node, char flag)
 	}
 }
 
-__intmax_t		ft_abs(__intmax_t n)
+intmax_t		ft_abs(intmax_t n)
 {
 	if (n < 0)
 		return (-n);
 	return (n);
 }
 
-unsigned long	ft_nlen(__uintmax_t n, int base)
+unsigned long	ft_nlen(uintmax_t n, int base)
 {
 	size_t		len;
 

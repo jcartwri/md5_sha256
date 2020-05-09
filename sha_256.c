@@ -30,14 +30,14 @@ static void	fill_basic_value(void)
 static	void	ft_create_stream_date(char *slovo, int len)
 {
 	fill_basic_value();
-	g_ssl->len = len + 1;
-	while (g_ssl->len % 64 != 56)
+	g_ssl->len = len * 8 + 1;
+	while (g_ssl->len % 512 != 448)
 		g_ssl->len++;
-	g_ssl->bufer = (char *)malloc(sizeof(char) * (g_ssl->len + 64));
-	ft_bzero(g_ssl->bufer, g_ssl->len + 64);
-	ft_strcpy(g_ssl->bufer, slovo);
-	*(uint32_t *)(g_ssl->bufer + len) = 0x80;
-	*(uint32_t *)(g_ssl->bufer + g_ssl->len) = (uint32_t)(len * 8);
+	g_ssl->bufer_32 = (uint32_t *)malloc(g_ssl->len + 64);
+	ft_bzero(g_ssl->bufer_32, g_ssl->len + 64);
+	ft_memcpy((char *)g_ssl->bufer_32, slovo, len);
+	((char *)g_ssl->bufer_32)[len] = 0x80;
+	g_ssl->bufer_32[g_ssl->len] = len;
 }
 
 void ft_sha_256(char *slovo, int len)
