@@ -105,4 +105,5 @@ void	ft_md5(char *slovo, int len)
 	}
 	ft_strdel(&(g_ssl->bufer));
 	g_ssl->bufer = NULL;
+	g_ssl->t = NULL;
 }

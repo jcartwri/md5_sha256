@@ -35,40 +35,61 @@ static int ft_run_md5(char *str)
 	ft_md5(str, ft_strlen(str));
 	str = ft_itoa_base_extra(revers_uint32(g_ssl->a0), 16);
 	ft_add_null(str);
-	ft_putstr(ft_itoa_base_extra(g_ssl->a0, 16));
-	ft_putstr("\n");
 	ft_putstr(str);
-	ft_putstr("\n");
 	str = ft_itoa_base_extra(revers_uint32(g_ssl->b0), 16);
 	ft_add_null(str);
-	ft_putstr(ft_itoa_base_extra(g_ssl->b0, 16));
-	ft_putstr("\n");
 	ft_putstr(str);
-	ft_putstr("\n");
 	str = ft_itoa_base_extra(revers_uint32(g_ssl->c0), 16);
 	ft_add_null(str);
-	ft_putstr(ft_itoa_base_extra(g_ssl->c0, 16));
-	ft_putstr("\n");
 	ft_putstr(str);
-	ft_putstr("\n");
 	str = ft_itoa_base_extra(revers_uint32(g_ssl->d0), 16);
 	ft_add_null(str);
-	ft_putstr(ft_itoa_base_extra(g_ssl->d0, 16));
-	ft_putstr("\n");
+	ft_putstr(str);
+	return (0);
+}
+
+static int ft_run_sha256(char *str)
+{
+	ft_sha_256(str, ft_strlen(str));
+	str = ft_itoa_base_extra(g_ssl->h0, 16);
+	ft_add_null(str);
+	ft_putstr(str);
+	str = ft_itoa_base_extra(g_ssl->h1, 16);
+	ft_add_null(str);
+	ft_putstr(str);
+	str = ft_itoa_base_extra(g_ssl->h2, 16);
+	ft_add_null(str);
+	ft_putstr(str);
+	str = ft_itoa_base_extra(g_ssl->h3, 16);
+	ft_add_null(str);
+	ft_putstr(str);
+	str = ft_itoa_base_extra(g_ssl->h4, 16);
+	ft_add_null(str);
+	ft_putstr(str);
+	str = ft_itoa_base_extra(g_ssl->h5, 16);
+	ft_add_null(str);
+	ft_putstr(str);
+	str = ft_itoa_base_extra(g_ssl->h6, 16);
+	ft_add_null(str);
+	ft_putstr(str);
+	str = ft_itoa_base_extra(g_ssl->h7, 16);
+	ft_add_null(str);
 	ft_putstr(str);
 	return (0);
 }
 
 int main(int argc, char **argv)
 {
-//	char *str;
-//
-//	str = "HI";
-//	ft_creat_ssl();
+	char *str;
+
+	str = "HI";
+	ft_creat_ssl();
 //	ft_run_md5(str);
-	u_int32_t mas1[10];
-	char	mas2[10] = "012345678\0";
-	u_int32_t *new_mas;
-	new_mas = ft_memcpy(mas1, mas2, 10);
+	ft_run_sha256(str);
+//	u_int32_t mas1[10];
+//	ft_bzero(mas1, 10);
+//	char	mas2[10] = "0123";
+//	u_int32_t *new_mas;
+//	new_mas = ft_memcpy(mas1, mas2, 10);
 	return 0;
 }

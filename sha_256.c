@@ -27,20 +27,115 @@ static void	fill_basic_value(void)
 	g_ssl->h7 = 0x5be0cd19;
 }
 
-static	void	ft_create_stream_date(char *slovo, int len)
+//static	void	ft_create_stream_date(char *slovo, int len)
+//{
+//	int	i;
+//
+//	fill_basic_value();
+//	g_ssl->len = len * 8 + 1;
+//	while (g_ssl->len % 512 != 448)
+//		g_ssl->len++;
+//	g_ssl->bufer_32 = (uint32_t *)malloc(sizeof(uint32_t) * ((g_ssl->len + 64) / 8));
+//	ft_bzero(g_ssl->bufer_32, (g_ssl->len + 64) / 8);
+//	ft_memcpy((char *)g_ssl->bufer_32, slovo, len);
+//	((char *)g_ssl->bufer_32)[len] = 0x80;
+//	i = 0;
+//	while (i < (g_ssl->len + 64) / 64)
+//	{
+//		g_ssl->bufer_32[i] = revers_uint32(g_ssl->bufer_32[i]);
+//		i++;
+//	}
+//	g_ssl->bufer_32[g_ssl->len / 32 + 1] = len;
+//}
+
+static void ft_create_stream_date(char *slovo, int len)
 {
+	int i;
+
 	fill_basic_value();
-	g_ssl->len = len * 8 + 1;
-	while (g_ssl->len % 512 != 448)
-		g_ssl->len++;
-	g_ssl->bufer_32 = (uint32_t *)malloc(g_ssl->len + 64);
-	ft_bzero(g_ssl->bufer_32, g_ssl->len + 64);
+	g_ssl->len = len * 8;
+	g_ssl->col_block = 1 + ((g_ssl->len + 1 + 64) / 512);
+	g_ssl->bufer_32 = malloc(16 * g_ssl->col_block * 4);
+	ft_bzero(g_ssl->bufer_32, 16 * g_ssl->col_block * 4);
 	ft_memcpy((char *)g_ssl->bufer_32, slovo, len);
-	((char *)g_ssl->bufer_32)[len] = 0x80;
-	g_ssl->bufer_32[g_ssl->len] = len;
+	((char *)g_ssl->bufer_32)[ft_strlen(slovo)] = 0x80;
+	i = 0;
+	while (i < (g_ssl->col_block * 16) - 1)
+	{
+		g_ssl->bufer_32[i] = revers_uint32(g_ssl->bufer_32[i]);
+		i++;
+	}
+	g_ssl->bufer_32[((g_ssl->col_block * 512 - 64) / 32) + 1] = g_ssl->len;
+}
+
+static void ft_extend_16_words(int i)
+{
+	int j;
+
+	g_ssl->t = malloc(512);
+	ft_bzero(g_ssl->t, 512);
+	ft_memcpy(g_ssl->t, &g_ssl->bufer_32[i * 16], 32 * 16);
+	j = 16;
+	while (j < 64)
+	{
+		g_ssl->s0 = (rightrotate(g_ssl->t[j - 15], 7) ^ rightrotate(g_ssl->t[j - 15], 18) ^ (g_ssl->t[j - 15] >> 3));
+		g_ssl->s1 = (rightrotate(g_ssl->t[j - 2], 17) ^ rightrotate(g_ssl->t[j - 2], 19) ^ (g_ssl->t[j - 2] >> 10));
+		g_ssl->t[j] = g_ssl->t[j - 16] + g_ssl->s0 + g_ssl->t[j - 7] + g_ssl->s1;
+		j++;
+	}
+	g_ssl->A = g_ssl->h0;
+	g_ssl->B = g_ssl->h1;
+	g_ssl->C = g_ssl->h2;
+	g_ssl->D = g_ssl->h3;
+	g_ssl->E = g_ssl->h4;
+	g_ssl->F = g_ssl->h5;
+	g_ssl->G = g_ssl->h6;
+	g_ssl->H = g_ssl->h7;
+
+}
+
+static void ft_main_loop(int j)
+{
+	g_ssl->s1 = (rightrotate(g_ssl->E, 6) ^ rightrotate(g_ssl->E, 11) ^ rightrotate(g_ssl->E, 25));
+	g_ssl->ch = (g_ssl->E & g_ssl->F) ^ (~g_ssl->E & g_ssl->G);
+	g_ssl->temp1 = g_ssl->H + g_ssl->s1 + g_ssl->ch + g_K[j] + g_ssl->t[j];
+	g_ssl->s0 = (rightrotate(g_ssl->A, 2) ^ rightrotate(g_ssl->A, 13) ^ rightrotate(g_ssl->A, 22));
+	g_ssl->temp2 = ((g_ssl->A & g_ssl->B) ^ (g_ssl->A & g_ssl->C) ^ (g_ssl->B & g_ssl->C)) + g_ssl->s0;
+
+	g_ssl->H = g_ssl->G;
+	g_ssl->G = g_ssl->F;
+	g_ssl->F = g_ssl->E;
+	g_ssl->E = g_ssl->D + g_ssl->temp1;
+	g_ssl->D = g_ssl->C;
+	g_ssl->C = g_ssl->B;
+	g_ssl->B = g_ssl->A;
+	g_ssl->A = g_ssl->temp1 + g_ssl->temp2;
 }
 
 void ft_sha_256(char *slovo, int len)
 {
+	int	i;
+//	int	len_block;
+	int j;
 
+//	len_block = 1 + g_ssl->len + 64 / 512;
+	i = 0;
+	ft_create_stream_date(slovo, ft_strlen(slovo));
+	while (i < g_ssl->col_block)
+	{
+		ft_extend_16_words(i);
+		j = 0;
+		while (j < 64)
+			ft_main_loop(j++);
+		g_ssl->h0 += g_ssl->A;
+		g_ssl->h1 += g_ssl->B;
+		g_ssl->h2 += g_ssl->C;
+		g_ssl->h3 += g_ssl->D;
+		g_ssl->h4 += g_ssl->E;
+		g_ssl->h5 += g_ssl->F;
+		g_ssl->h6 += g_ssl->G;
+		g_ssl->h7 += g_ssl->H;
+		free(g_ssl->t);
+		i++;
+	}
 }

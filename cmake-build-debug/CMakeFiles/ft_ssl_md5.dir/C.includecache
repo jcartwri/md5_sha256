@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/zaharov/Documents/YSHA/md5_sha256/ft_itoa_base_extra.c
-ft_ssl.h
-/Users/zaharov/Documents/YSHA/md5_sha256/ft_ssl.h
-
 /Users/zaharov/Documents/YSHA/md5_sha256/ft_ssl.h
 ./lib/printf/ft_printf.h
 /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/ft_printf.h
@@ -45,22 +41,6 @@ stdlib.h
 -
 get_next_line.h
 /Users/zaharov/Documents/YSHA/md5_sha256/lib/printf/libft/get_next_line.h
-
-/Users/zaharov/Documents/YSHA/md5_sha256/main.c
-stdio.h
--
-ft_ssl.h
-/Users/zaharov/Documents/YSHA/md5_sha256/ft_ssl.h
-math.h
--
-
-/Users/zaharov/Documents/YSHA/md5_sha256/md5.c
-ft_ssl.h
-/Users/zaharov/Documents/YSHA/md5_sha256/ft_ssl.h
-
-/Users/zaharov/Documents/YSHA/md5_sha256/parser.c
-ft_ssl.h
-/Users/zaharov/Documents/YSHA/md5_sha256/ft_ssl.h
 
 /Users/zaharov/Documents/YSHA/md5_sha256/sha_256.c
 ft_ssl.h
